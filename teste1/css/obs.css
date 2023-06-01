@@ -1,0 +1,19 @@
+/*
+font-family: 'Chakra Petch', sans-serif;       10
+font-family: 'Josefin Slab', serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Play', sans-serif;               10
+font-family: 'Roboto Mono', monospace;         Titulo
+font-family: 'Source Code Pro', monospace;
+font-family: 'Source Sans 3', sans-serif;
+*/
+
+.OBS{
+    color:black;
+    /*font-family: 'Play', sans-serif;*/
+    font-family: 'Chakra Petch', sans-serif;
+    padding: 30px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: center;
+}

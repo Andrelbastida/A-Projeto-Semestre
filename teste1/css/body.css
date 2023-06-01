@@ -3,6 +3,9 @@ body{
     background-color: #fdfdfd;
 
 }
+a{
+    text-decoration: none;
+}
 /*
 font-family: 'Chakra Petch', sans-serif;
 font-family: 'Josefin Slab', serif;
