@@ -49,16 +49,30 @@ section{
     
 }
 
-.img_temaLP{
+.img_tema{
     width: 100%;
     height: 60%;
     border-radius: 50%;
-    background-image: url('../../img/Linguagem_ret4x3.jpg');
+    
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
 }
-
+.LP{
+    background-image: url('../../img/Linguagem_ret4x3.jpg');
+}
+.AI{
+background-image: url(../../img/Robótica1.png);
+}
+.RC{
+background-image: url(../../img/Redes.jpg);
+}
+.BD{
+    background-image: url(../../img/BancoDeDados.png);
+}
+.CD{
+    background-image: url(../../img/CienciaDeDados3.png);
+}
 
 .conteudo__materia{
     display: flex;
