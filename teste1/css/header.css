@@ -34,10 +34,19 @@ header{
 header img{
     height: 35px;
 }
+header nav ul li{
+    display: flex;
+    opacity: 40%;
 
+}
 header nav ul{
     display: flex;
+    
 
+}
+header nav ul li:hover{
+    opacity: 100%;
+    transition: 2s;
 }
 
 header nav ul li{
