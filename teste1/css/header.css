@@ -41,8 +41,13 @@ header nav ul li{
 }
 header nav ul{
     display: flex;
-    
-
+    align-items: center;
+    padding-left: 20px;
+    height: 30px;
+}
+header nav ul:hover{
+    background-color: white;
+    border-radius: 5px;
 }
 header nav ul li:hover{
     opacity: 100%;

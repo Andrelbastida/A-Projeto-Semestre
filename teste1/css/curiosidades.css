@@ -19,6 +19,7 @@ font-family: 'Source Sans 3', sans-serif;
     font-family: 'Source Sans 3', sans-serif;
 }
 .telegrafo_{
+    gap: 30px;
     border-radius: 15px;
     position: relative;
     height: 400px;
@@ -28,7 +29,7 @@ font-family: 'Source Sans 3', sans-serif;
     background-repeat: no-repeat;
     color: rgba(240, 248, 255, 0);
     display: flex;
-    
+    margin-bottom: 10px;
     align-items: center;
     
     

@@ -1,0 +1,30 @@
+#linguagemDeProgramacao{
+    padding: 8%;
+    text-align: justify;
+}
+#linguagemDeProgramacao h2{
+    text-align: center;
+    padding: 2rem;
+}
+#linguagemDeProgramacao p{
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+#linguagemDeProgramacao h4{
+    padding-bottom: 0.2rem;
+}
+#linguagemDeProgramacao table{ 
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5rem;
+    
+}
+
+.imagem_tabela{
+    height: 50px;
+}
+#linguagemDeProgramacao table tbody tr{
+    padding: 0 20px;
+}
+
+
