@@ -1,0 +1,43 @@
+.vsCode{
+    width: 100%;
+}
+.vsCode img{
+    width: 40%;
+    border-radius: 7px;
+}
+.foto_texto{
+    display: flex;
+    flex-direction: row;
+}
+.marcacao:hover{
+    color: #e6580e;
+    font-weight: 600;
+}
+.estilizacao:hover{
+    color: #155cd8;
+    font-weight: 600;
+}
+.programacao:hover{
+    color: #ef9e0f;
+    font-weight: 600;
+}
+.texto_vs a{
+    cursor: pointer;
+    color: black;
+    
+}
+ul #html_{
+    color: #e6580e;
+    font-weight: 600;
+    list-style: none;
+}
+ul #css_{
+    color: #155cd8;
+    font-weight: 600;
+    list-style: none;
+}
+ul #js_{
+    color: #ef9e0f;
+    font-weight: 600;
+    list-style: none;
+}
