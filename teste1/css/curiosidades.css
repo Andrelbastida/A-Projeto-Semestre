@@ -11,13 +11,15 @@ font-family: 'Source Sans 3', sans-serif;
     
     
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    flex-direction: row;
+    flex-direction: row; /* ROW */
     flex-wrap: wrap;
     padding-left: 15%;
     padding-right: 15%;
     font-family: 'Source Sans 3', sans-serif;
 }
+
 .telegrafo_{
     gap: 30px;
     border-radius: 15px;
@@ -60,5 +62,4 @@ font-family: 'Source Sans 3', sans-serif;
     text-align: center;
     margin: 10%;
     font-size: medium;
-    
 }
