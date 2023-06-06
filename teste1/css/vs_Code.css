@@ -16,10 +16,11 @@
     min-width: 50%;
     border-radius: 7px;
 }
+
 .foto_texto{
     display: flex;
     flex-direction: row;
-    margin-bottom: 30px;
+    padding-top: 3rem;
 }
 .marcacao:hover{
     color: #e6580e;
@@ -59,7 +60,12 @@ ul #js_{
 .tabela_tags{
     padding-left: 2rem;
     width: 100%; 
+    
 }
+.texto_vs ul table{
+    margin-bottom: 1rem;
+}
+
 
 .tabela_tags td{
     width: 161px;
