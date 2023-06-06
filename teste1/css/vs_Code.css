@@ -1,13 +1,25 @@
 .vsCode{
     width: 100%;
 }
-.vsCode img{
-    width: 40%;
+.vsCode .pagina_vsc{
+    background-image: url(../../img/VisualStudioCode.png);
+    background-repeat: none;
+    background-size: cover;
+    min-width: 50%;
+    border-radius: 7px;
+    
+}
+.vsCode .pagina_index{
+    background-image: url(../../img/VisualStudioCodeBody.png);
+    background-repeat: none;
+    background-size: cover;
+    min-width: 50%;
     border-radius: 7px;
 }
 .foto_texto{
     display: flex;
     flex-direction: row;
+    margin-bottom: 30px;
 }
 .marcacao:hover{
     color: #e6580e;
@@ -26,7 +38,10 @@
     color: black;
     
 }
-ul #html_{
+.texto_vs ul{
+    font-size: 0.8rem;
+}
+ul .html_{
     color: #e6580e;
     font-weight: 600;
     list-style: none;
@@ -41,3 +56,4 @@ ul #js_{
     font-weight: 600;
     list-style: none;
 }
+
