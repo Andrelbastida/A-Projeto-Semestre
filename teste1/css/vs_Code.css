@@ -56,4 +56,16 @@ ul #js_{
     font-weight: 600;
     list-style: none;
 }
+.tabela_tags{
+    padding-left: 2rem;
+    width: 100%; 
+}
+
+.tabela_tags td{
+    width: 161px;
+}
+mark{
+    background-color: #6995e1;
+}
+
 
