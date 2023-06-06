@@ -77,6 +77,7 @@ mark{
     background-size: cover;
     min-width: 50%;
     border-radius: 7px;
+    transition: 1s;
 }
 .texto_vs #css_{
     color: #155cd8;
@@ -93,16 +94,40 @@ mark{
     transition: 2s;
 }
 #cor_1{
-    color: #d7ba7d;
+    color: #d4b36b;
     font-weight: 700;
 }
 #cor_2{
-    color: #9cdcfe;
-    margin-left: 2rem;
+    color: #81d3ff;
+    
 }
 #cor_3{
-    color: #b5cea8;
+    color: #a5cf8f;
 }
 #cor_4{
     color: #cdcea8;
+}
+#pagina_css #cor_2{
+    color: #81d3ff;
+    margin-left: 2rem;
+}
+#pagina_css #cor_3{
+    color: #a5cf8f;
+    padding-left: 0.5rem;
+}
+#divisoria h5{
+    cursor: pointer;
+   font-weight:300 ;
+   text-align:end;
+   color: rgba(0, 0, 0, 0.473);
+}
+#divisoria h5:hover{
+    color: black;
+}
+.pagina_exemplo_css{
+    background-image: url(../../img/telaCSS1.png);
+    background-repeat: none;
+    background-size: cover;
+    min-width: 50%;
+    border-radius: 7px;
 }
