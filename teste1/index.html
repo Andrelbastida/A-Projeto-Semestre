@@ -208,8 +208,8 @@
                         <li id="html_" class="html_">HTML</li><p>Conhecido como <i>"Hypertext Markup Language"</i> (linguagem de marcação de Hipertexto), é utilizada construir conteúdos em sites utlizando suas<a class="marcacao" href="#tags"><i> < tags ></i></a>, com ela, implementamos textos, imagens, vídeos, tabelas, e outros.</p>
 
                         <li ><a id="cor_6" href="#pagina_css">CSS</a ></li><p>Conhecido como <i>"Cascading Style Sheets"</i> (Folhas de Estilo em Cascata), o css é uma linguagem de estilo usada para descrever a apresentação de um documento escrito em HTML ou em XML.</p>
-                        <li><a class="js_" href="#javaScript_">JavaScript</a></li> <p>JavaScript é uma linguagem de programação interpretada e estruturada, de script em alto nível com tipagem dinâmica fraca. Juntamente com HTML e CSS, o JavaScript deixará sua página web mais dinâmica. <br>
-                        Pode ser usado também no back-end.</p>
+                        <li><a class="js_" href="#javaScript_">JavaScript</a></li> <p>JavaScript é uma linguagem de programação interpretada e estruturada, possui script em alto nível com tipagem dinâmica fraca. criada para ser executada em navegadores ou aplicativos mobile, manipulando o comportamento de seus elementos, tornando-os mais dinâmicos. Pode ser usado também no back-end. 
+                        </p>
                     </ul> 
                 </div>
             </div>
@@ -281,14 +281,17 @@
                         Este seletor referencia "tags", "classes" e "id". As classes referenciadas por "<i>ponto</i>" ( <b>.</b> ), e os id por "<i>hashtag</i>" ( <b>#</b> )</p>
                         <li id=cor_5><b>Bloco de declarações</b> </li>
                        <p>Este é o espaço onde estarão descritas as características do elemento que será estilizado dentre as "chaves" ( <b>{</b>...<b>}</b> ), e separados por "ponto e vírgula" ( <b>;</b> ). Essas características serão descritas da seguinte forma:
-                        <div id="divisoria"><ul><b id="cor_1">seletor{</b>
-                            <li><b id="cor_2">propriedade</b><b id="cor_4">:</b> <b id="cor_3"> valor</b><b id="cor_4">;</b></li>
-                            <li><b id="cor_1">}</b></li>
-                        </ul>
-                        <h5 class="obs_h5">OBS: passe o mouse sobre a imagem a sua esquerda para visualizar os exemplos.</h5>
+                        <div >
+                            <ul><b class="cor_1">seletor{</b>
+                                <li><b id="cor_2">propriedade</b><b class="cor_4">:</b> <b class="cor_3"> valor</b><b class="cor_4">;</b></li>
+                                <li><b id="cor_1">}</b></li>
+                            </ul>
                         </div>
+                        <h5 class="obs_h5">OBS: passe o mouse sobre a imagem a sua esquerda para visualizar os exemplos.</h5>
+                        
                         
                         </p>
+                    
                     </ul>
                 </div>
             </div>
@@ -321,19 +324,19 @@
             
                 <div class="texto_vs"> 
                     <p><b class=js_>JavaScript</b></p>
-                    <p>É uma linguagem de programação de alto nível criada para ser executada em navegadores ou aplicativos mobile e manipular comportamentos de seus elementos, tornando-os mais dinâmicos.<br>
+                    <p>Quando uma página da web é carregada, o navegador cria um "Document Object Model" (<b class="js_">DOM</b>), que é um modelo de objeto de documento, definindo:<br>
+                        <p>
+                        - Os elementos HTML como objetos.<br>
+                        - As propriedades de todos os elementos HTML.<br>
+                        - Os métodos para acessar todos os elementos HTML.<br>
+                        - Os eventos para todos os elementos HTML.<br>
+                    </p>
+                    
+                        <p>Em outras palavras, o DOM é um padrão dinâmico que descreve como obter, alterar, adicionar ou excluir elementos HTML utilizando o JavaScript.</p>
+                        <h5 class="obs_h5">OBS: passe o mouse sobre a imagem a sua esquerda para visualizar.</h5>
                     <ul>
                          
-                        Quando uma página da web é carregada, o navegador cria um "Document Object Model"  da página.
-                        Que é um Modelo de Objeto de Documento (<b class="js_">DOM</b>).<br> Ele define:<br>
                         
-                        <li>- Os elementos HTML como objetos.</li>
-                        <li>- As propriedades de todos os elementos HTML.</li>
-                        <li>- Os métodos para acessar todos os elementos HTML.</li>
-                        <li>- Os eventos para todos os elementos HTML.</li>
-                    
-                        <p>Em outras palavras: DOM é um padrão dinâmico de como obter, alterar, adicionar ou excluir elementos HTML utilizando o JavaScript.</p>
-                        <h5 class="obs_h5">OBS: passe o mouse sobre a imagem a sua esquerda para visualizar.</h5>
                     </ul>
                         
                     
@@ -346,31 +349,34 @@
                            
                             
                         <ul>
-                            Ao declararmos as variáveis, como: <b class="cor_6">var btn1</b> e <b class="cor_6">var btn2</b>, podemos indicar de qual elemento do HTML elas estão se referenciando utilizando o comando:
-                            <br>
-                            <p><b>= document.getElementBy</b></p>                      
+                            Ao declararmos as variáveis, como por exemplo "<b class="cor_6">var btn1</b>" e "<b class="cor_6">var btn2</b>", podemos indicar qual elemento do HTML elas estão se referenciando utilizando o comando:
+                            <br><br>
+                            <p><b class="backg1"><b class="cor_6">var</b> <b class="cor_9">btn1 = document.getElementById</b><b class="cor_8">(<b class="cor_7">"botao"</b>);</b></b></p>                      
                             <ul>
-                                <li>"<b>=</b>" - sinal de atributo</li>
-                                <li>"<b>document</b>" - Referenciando o HTML</li>
-                                <li>"<b>getElementById</b>"" - Referenciando o objeto através do id.</li>
-                                <li>"<b>getElementByClassName</b>" - Referenciando o objeto através do nome da classe.</li>
+                                <li><b class="backg1"><b class="cor_9">=</b></b> - sinal de atributo</li>
+                                <li><b class="backg1"><b class="cor_9">document</b></b> - Referenciando o HTML</li>
+                                <li><b class="backg1"><b class="cor_9">getElementById</b></b> - Referenciando o objeto através do id.</li>
+                                <li><b class="backg1"><b class="cor_9">getElementsByClassName</b></b> - Referenciando o objeto através do nome da classe.</li>
+                                <li><b class="backg1"><b class="cor_8">(<b class="cor_7">"botao"</b>);</b></b></b> - É o id do objeto.</li>
                             </ul>
+                            <h5 class="obs_h5">OBS: caso você utilize a classe para referenciar, você deve selecionar qual objeto deseja , utilizando <b class="backg1"><b class="cor_8">[<b class="cor_3">0</b>]</b></b></b>.</h5>
                             <br>
                             Depois, adicionamos uma "lista de eventos" com a seguinte sintaxe: 
                                 
                                     
-                                <p><b class="cor_6">variável</b><b>.addEventListener</b><b class="cor_8"> (</b><b class="cor_7">"click"</b>,<b class="cor_6">function</b><b class="cor_8">)</b></p>
+                                <p><b class="backg1"><b class="cor_9">btn2.addEventListener</b><b class="cor_8">(</b><b class="cor_7">"click"</b><b class="cor_9">,</b><b class="cor_9">editar2</b><b class="cor_8">);</b></b></p>
                                         
                                     <ul>
-                                        <li><b class="cor_6">btn1</b> é a variável<br></li>
-                                        <li><b>.addEventListener</b> é o comando para adicionar uma lista de evento </li>
+                                        <li><b class="backg1"><b class="cor_9">btn1</b></b> é a variável<br></li>
+                                        <li><b class="backg1"><b class="cor_9">.addEventListener</b></b> é o comando para adicionar uma lista de evento </li>
                                     
-                                        <li><b class="cor_7">"click"</b> é a ação do mouse que irá chamar a função.</li> 
-                                        <li><b class="cor_6">function</b> é a função que este comando irá chamar.</li>
+                                        <li><b class="backg1"><b class="cor_7">"click"</b></b> é a ação do mouse, que irá chamar a função.</li> 
+                                        <li><b class="backg1"><b class="cor_9">editar1</b></b> é a função que este comando irá chamar.</li>
+                                        
                                     </ul><br>
                                     
                                     
-                            <li>E temos também as variáveis <b class="cor_6"> bckgr1</b> e <b class="cor_6"> bckgr2</b>, as quais utilizamos o comando <b>querySelector</b>, que referência diretamente as tags <b class="cor_1">"h4"</b> e <b class="cor_1">"p"</b></li>
+                            <li>E temos também as variáveis <b class="cor_6"> bckgr1</b> e <b class="cor_6"> bckgr2</b>, as quais utilizamos o comando <b>querySelector</b>, para referênciar diretamente as tags <code class="cor_6">&lt;h4&gt;</code> e <code class="cor_6">&lt;p&gt;</code>.</li>
                                 
     
                                 
