@@ -52,7 +52,7 @@ ul #css_{
     font-weight: 600;
     
 }
-ul #js_{
+ul .js_{
     color: #ef9e0f;
     font-weight: 600;
     
@@ -144,4 +144,8 @@ mark{
     background-size: cover;
     min-width: 50%;
     border-radius: 7px; 
+}
+.js_{
+    color: #ef9e0f;
+    font-weight: 600;
 }
