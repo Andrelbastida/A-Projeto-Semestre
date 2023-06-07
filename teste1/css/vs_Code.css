@@ -107,6 +107,13 @@ mark{
 #cor_4{
     color: #cdcea8;
 }
+#cor_5{
+    color: #81d3ff; 
+}
+#cor_6{
+    color: #155cd8;
+    font-weight: 600;
+}
 #pagina_css #cor_2{
     color: #81d3ff;
     margin-left: 2rem;
@@ -115,13 +122,13 @@ mark{
     color: #a5cf8f;
     padding-left: 0.5rem;
 }
-#divisoria h5{
+.obs_h5{
     cursor: pointer;
    font-weight:300 ;
    text-align:end;
    color: rgba(0, 0, 0, 0.473);
 }
-#divisoria h5:hover{
+.obs_h5:hover{
     color: black;
 }
 .pagina_exemplo_css{
