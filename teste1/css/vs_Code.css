@@ -138,3 +138,10 @@ mark{
     min-width: 50%;
     border-radius: 7px;
 }
+.pagina_javaScript{
+    background-image: url(../../img/VisualStudioCodeJS.png);
+    background-repeat: none;
+    background-size: cover;
+    min-width: 50%;
+    border-radius: 7px; 
+}
