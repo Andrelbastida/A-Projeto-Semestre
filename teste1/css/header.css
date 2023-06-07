@@ -17,8 +17,15 @@ header{
     z-index: 999;
     padding-top: 0.5%;
     width: 100vw;
-    height: 45px; 
+    height: 40px; 
     font-family: 'Orbitron', sans-serif;
+    opacity: 20%;
+    transition: 4s;
+}
+header:hover{
+    transition: 2s;
+    opacity: 100%;
+    background-color: white;
 }
 .menu{
     display: flex;
@@ -45,10 +52,7 @@ header nav ul{
     padding-left: 20px;
     height: 30px;
 }
-header nav ul:hover{
-    background-color: white;
-    border-radius: 5px;
-}
+
 header nav ul li:hover{
     opacity: 100%;
     transition: 2s;

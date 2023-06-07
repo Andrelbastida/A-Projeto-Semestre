@@ -186,6 +186,13 @@ mark{
     min-width: 50%;
     border-radius: 7px; 
 }
+.pagina_javaScript_clip{
+    background-image: url(../../img/vscodeJS.gif);
+    background-repeat: none;
+    background-size: cover;
+    min-width: 50%;
+    border-radius: 7px; 
+}
 .js_{
     color: #ef9e0f;
     font-weight: 600;
