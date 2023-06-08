@@ -183,16 +183,30 @@ mark{
     background-image: url(../../img/VisualStudioCodeJS.png);
     background-repeat: none;
     background-size: cover;
+    
     min-width: 50%;
     border-radius: 7px; 
+    
 }
-.pagina_javaScript_clip{
-    background-image: url(../../img/vscodeJS.gif);
-    background-repeat: none;
-    background-size: cover;
+.pagina_javaScript2{
     min-width: 50%;
-    border-radius: 7px; 
+    max-width: 50%;
+    font-size: 0.7rem;
+    font-weight: 400;
+    font-family: 'Chakra Petch', sans-serif;
 }
+.pagina_javaScript2 h4{
+    padding: 0px;
+    padding-top: 2.4rem;
+    font-weight: 300;
+}
+.pagina_javaScript2 img{
+    
+    width: 100%;
+    border-radius: 7px;
+}
+
+
 .js_{
     color: #ef9e0f;
     font-weight: 600;
@@ -204,5 +218,23 @@ mark{
 }
 #javaScript_ .texto_vs ul li{
     list-style: none;
-
 }
+
+.pagina_javaScript_clip{
+    min-width: 50%;
+    max-width: 50%;
+    border-style: solid;
+    border-radius: 7px;
+    height: 30%;
+}
+
+.video-container {
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  
+  .video-container video {
+    width: 100%;
+    border-radius: 7px;
+  }
