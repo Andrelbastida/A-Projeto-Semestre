@@ -1,0 +1,49 @@
+.projetos_LP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.selecao_Projetos{
+    display:flex ;
+    flex-direction: row;
+    flex-wrap: ;
+    justify-content: space-around;
+    width: 90%;
+    
+    
+      
+}
+.projeto{
+    background-color:#1e1e1e ;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 300px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.projeto h5{
+    color: aliceblue;
+    width: 94%;
+    text-align: center;
+}
+.conteudo_projeto{
+    background-color: rgb(0, 0, 0);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%; 
+    height: 90%;
+}
+.img_projeto{
+    display: flex;
+    height: 90%;
+    padding: 1rem;
+    border-radius: 7px;
+    
+}
