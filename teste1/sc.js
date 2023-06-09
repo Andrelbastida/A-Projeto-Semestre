@@ -13,10 +13,23 @@ btnfechar.addEventListener('click',fechaTela)
 function fechaTela(){
     zoom_projeto_Curriculo.style.display='none'
 }
-/* _______________________________________________________ */
-
+/* ____________________________________________________ */
 
 /* ZOOM Projeto _ */
+var caixa_/* PROJETO*/ = document.getElementById("projeto_");
+var tela_/* PROJETO*/ = document.getElementById('zoom_projeto_')/* PROJETO*/
+
+caixa_/* PROJETO*/.addEventListener('click', zoom2 )
+
+function zoom2(){
+    zoom_projeto_/* PROJETO*/.style.display='block'
+}
+var btnfechar =document.getElementById('btn_fechar')
+btnfechar.addEventListener('click',fechaTela2)
+
+function fechaTela2(){
+    zoom_projeto_Curriculo.style.display='none'
+}
 
 /* _______________________________________________________ */
 /* ZOOM Projeto _ */
