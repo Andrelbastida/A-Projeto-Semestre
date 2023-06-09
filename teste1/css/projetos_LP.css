@@ -2,16 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 4%;
 }
 .selecao_Projetos{
     display:flex ;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 90%;
-    
-    
-      
+    width: 100%;
 }
 .projeto{
     background-color:#1e1e1e ;
@@ -50,6 +48,6 @@
     display: flex;
     max-height: 90%;
     max-width: 95%;
-    border-radius: 7px;
+    border-radius: 2px;
     
 }
