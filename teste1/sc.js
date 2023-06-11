@@ -1,3 +1,5 @@
+/* Projetos Linguagem de Programação */
+
 /* ZOOM Projeto Curriculo */
 var caixa_curriculo = document.getElementById("projeto_curriculo");
 var tela_curriculo = document.getElementById('zoom_projeto_Curriculo')
@@ -42,5 +44,13 @@ function fechaTela2(){
 
 /* _______________________________________________________ */
 /* ZOOM Projeto _ */
+
+/* _______________________________________________________ */
+
+/* Projetos Automação _________________________
+###############################################################*/
+
+/* ZOOM Projeto _ */
+
 
 /* _______________________________________________________ */
