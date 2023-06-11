@@ -9,8 +9,7 @@ font-family: 'Source Sans 3', sans-serif;
 */
 
 footer{
-    position: absolute;
-    top: 0px;
+    
     right: 0px;
     left: 0px;
 
@@ -70,4 +69,7 @@ footer{
 .logo_prof{
     border-radius: 50%;
     height: 60px;
+}
+.img_Automacao_pequeno{
+    height: 50%;
 }
