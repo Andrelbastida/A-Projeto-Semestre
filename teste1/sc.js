@@ -65,10 +65,35 @@ function fechaA2(){
 }
 
 /* _______________________________________________________ */
-/* ZOOM Projeto _ */
+/* ZOOM Projeto _Automação 3 */
+var caixa_Automacao3 = document.getElementById("projeto_Automacao3")
+var tela_Automacao3 = document.getElementById("zoom_projeto_Automacao3")
 
+caixa_Automacao3.addEventListener('click', zoomA3)
+
+function zoomA3(){
+    zoom_projeto_Automacao3.style.display="block"
+}
+var btn_fechar_A3 = document.getElementById("btn_fechar_Automacao3")
+btn_fechar_A3.addEventListener('click',fechaA3)
+function fechaA3(){
+    zoom_projeto_Automacao3.style.display="none"
+}
 /* _______________________________________________________ */
-/* ZOOM Projeto _ */
+/* ZOOM Projeto _Automação 4 */
+var caixa_Automacao4 = document.getElementById("projeto_Automacao4")
+var tela_Automacao4 = document.getElementById("zoom_projeto_Automacao4")
+
+caixa_Automacao4.addEventListener('click', zoomA4)
+
+function zoomA4(){
+    zoom_projeto_Automacao4.style.display="block"
+}
+var btn_fechar_A4 = document.getElementById("btn_fechar_Automacao4")
+btn_fechar_A4.addEventListener('click',fechaA4)
+function fechaA4(){
+    zoom_projeto_Automacao4.style.display="none"
+}
 
 /* _______________________________________________________ */
 
