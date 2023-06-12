@@ -34,10 +34,35 @@ function fechaTela2(){
 }
 
 /* _______________________________________________________ */
-/* ZOOM Projeto _ */
+/* ZOOM Projeto Automação 1 */
+var caixa_Automacao1 = document.getElementById("projeto_Automacao1")
+var tela_Automacao1 = document.getElementById("zoom_projeto_Automacao1")
 
+caixa_Automacao1.addEventListener('click', zoomA1)
+
+function zoomA1(){
+    zoom_projeto_Automacao1.style.display="block"
+}
+var btn_fechar_A1 = document.getElementById("btn_fechar_Automacao1")
+btn_fechar_A1.addEventListener('click',fechaA1)
+function fechaA1(){
+    zoom_projeto_Automacao1.style.display="none"
+}
 /* _______________________________________________________ */
-/* ZOOM Projeto _ */
+/* ZOOM Projeto _Automação 2 */
+var caixa_Automacao2 = document.getElementById("projeto_Automacao2")
+var tela_Automacao2 = document.getElementById("zoom_projeto_Automacao2")
+
+caixa_Automacao2.addEventListener('click', zoomA2)
+
+function zoomA2(){
+    zoom_projeto_Automacao2.style.display="block"
+}
+var btn_fechar_A2 = document.getElementById("btn_fechar_Automacao2")
+btn_fechar_A2.addEventListener('click',fechaA2)
+function fechaA2(){
+    zoom_projeto_Automacao2.style.display="none"
+}
 
 /* _______________________________________________________ */
 /* ZOOM Projeto _ */

@@ -1,5 +1,4 @@
-#zoom_projeto_Curriculo{
-    display: none;
+.zoom_projetos{
     z-index: 999;
     top: 0px;
     left: 0px;    
@@ -9,19 +8,26 @@
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.771);
+}
+#zoom_projeto_Curriculo{
+    display: none; 
 }
 #zoom_projeto_Automacao1{
-    display: none;
-    z-index: 999;
-    top: 0px;
-    left: 0px;    
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.771);
+    display: none; 
 }
+#zoom_projeto_Automacao2{
+    display: none;
+}
+#zoom_projeto_Automacao3{
+    display: none;
+}
+#zoom_projeto_Automacao4{
+    display: none;
+}
+#zoom_projeto_Automacao5{
+    display: none;
+}
+
 .contem_projeto_zoom{
     position: relative;
     left: 10%;
