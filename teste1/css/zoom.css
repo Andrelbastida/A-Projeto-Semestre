@@ -27,7 +27,9 @@
 #zoom_projeto_Automacao5{
     display: none;
 }
-
+#zoom_projeto_Automacao6{
+    display: none;
+}
 .contem_projeto_zoom{
     position: relative;
     left: 10%;
