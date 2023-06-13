@@ -96,6 +96,20 @@ function fechaA4(){
 }
 
 /* _______________________________________________________ */
+/* ZOOM Projeto _Automação 5 */
+var caixa_Automacao5 = document.getElementById("projeto_Automacao5")
+var tela_Automacao5 = document.getElementById("zoom_projeto_Automacao5")
+
+caixa_Automacao5.addEventListener('click', zoomA5)
+
+function zoomA5(){
+    zoom_projeto_Automacao5.style.display="block"
+}
+var btn_fechar_A5 = document.getElementById("btn_fechar_Automacao5")
+btn_fechar_A5.addEventListener('click',fechaA5)
+function fechaA5(){
+    zoom_projeto_Automacao5.style.display="none"
+}
 
 /* Projetos Automação _________________________
 ###############################################################*/
