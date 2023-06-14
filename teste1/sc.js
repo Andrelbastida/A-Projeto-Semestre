@@ -126,8 +126,23 @@ function fechaA6(){
     zoom_projeto_Automacao6.style.display="none"
 }
 
-/* Projetos Automação _________________________
+/* Projetos Redes _________________________
 ###############################################################*/
+/* ZOOM Projeto Redes 1 */
+var caixa_Redes1 = document.getElementById("projeto_Redes1")
+var tela_Redes1 = document.getElementById("zoom_projeto_Redes1")
+
+caixa_Redes1.addEventListener('click', zoomR1)
+
+function zoomR1(){
+    zoom_projeto_Redes1.style.display="block"
+}
+var btn_fechar_R1 = document.getElementById("btn_fechar_Redes1")
+btn_fechar_R1.addEventListener('click',fechaR1)
+function fechaR1(){
+    zoom_projeto_Redes1.style.display="none"
+}
+/* _______________________________________________________ */
 
 /* ZOOM Projeto _ */
 
