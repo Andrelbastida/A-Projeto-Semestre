@@ -16,22 +16,74 @@ function fechaTela(){
     zoom_projeto_Curriculo.style.display='none'
 }
 /* ____________________________________________________ */
+/* ZOOM Projeto _Linguagem 2 */
+var caixa_Linguagem2 = document.getElementById("projeto_Linguagem2")
+var tela_Linguagem2 = document.getElementById("zoom_projeto_Linguagem2")
 
-/* ZOOM Projeto _ */
-var caixa_/* PROJETO*/ = document.getElementById("projeto_");
-var tela_/* PROJETO*/ = document.getElementById('zoom_projeto_')/* PROJETO*/
+caixa_Linguagem2.addEventListener('click', zoomL2)
 
-caixa_/* PROJETO*/.addEventListener('click', zoom2 )
-
-function zoom2(){
-    zoom_projeto_/* PROJETO*/.style.display='block'
+function zoomL2(){
+    zoom_projeto_Linguagem2.style.display="block"
 }
-var btnfechar =document.getElementById('btn_fechar')
-btnfechar.addEventListener('click',fechaTela2)
-
-function fechaTela2(){
-    zoom_projeto_Curriculo.style.display='none'
+var btn_fechar_L2 = document.getElementById("btn_fechar_Linguagem2")
+btn_fechar_L2.addEventListener('click',fechaL2)
+function fechaL2(){
+    zoom_projeto_Linguagem2.style.display="none"
 }
+
+/* _______________________________________________________ */
+/* ZOOM Projeto _Linguagem 3 */
+var caixa_Linguagem3 = document.getElementById("projeto_Linguagem3")
+var tela_Linguagem3 = document.getElementById("zoom_projeto_Linguagem3")
+
+caixa_Linguagem3.addEventListener('click', zoomL3)
+
+function zoomL3(){
+    zoom_projeto_Linguagem3.style.display="block"
+}
+var btn_fechar_L3 = document.getElementById("btn_fechar_Linguagem3")
+btn_fechar_L3.addEventListener('click',fechaL3)
+function fechaL3(){
+    zoom_projeto_Linguagem3.style.display="none"
+}
+
+/* _______________________________________________________ */
+
+/* ZOOM Projeto _Linguagem 4 */
+var caixa_Linguagem4 = document.getElementById("projeto_Linguagem4")
+var tela_Linguagem4 = document.getElementById("zoom_projeto_Linguagem4")
+
+caixa_Linguagem4.addEventListener('click', zoomL4)
+
+function zoomL4(){
+    zoom_projeto_Linguagem4.style.display="block"
+}
+var btn_fechar_L4 = document.getElementById("btn_fechar_Linguagem4")
+btn_fechar_L4.addEventListener('click',fechaL4)
+function fechaL4(){
+    zoom_projeto_Linguagem4.style.display="none"
+}
+
+/* _______________________________________________________ */
+
+/* ZOOM Projeto _Linguagem 5 */
+var caixa_Linguagem5 = document.getElementById("projeto_Linguagem5")
+var tela_Linguagem5 = document.getElementById("zoom_projeto_Linguagem5")
+
+caixa_Linguagem5.addEventListener('click', zoomL5)
+
+function zoomL5(){
+    zoom_projeto_Linguagem5.style.display="block"
+}
+var btn_fechar_L5 = document.getElementById("btn_fechar_Linguagem5")
+btn_fechar_L5.addEventListener('click',fechaL5)
+function fechaL5(){
+    zoom_projeto_Linguagem5.style.display="none"
+}
+
+/* _______________________________________________________ */
+
+
 
 /* _______________________________________________________ */
 /* ZOOM Projeto Automação 1 */

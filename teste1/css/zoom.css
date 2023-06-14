@@ -12,6 +12,21 @@
 #zoom_projeto_Curriculo{
     display: none; 
 }
+#zoom_projeto_Linguagem2{
+    display: none;
+}
+#zoom_projeto_Linguagem3{
+    display: none;
+}
+#zoom_projeto_Linguagem4{
+    display: none;
+}
+#zoom_projeto_Linguagem5{
+    display: none;
+}
+#zoom_projeto_Linguagem6{
+    display: none;
+}
 #zoom_projeto_Automacao1{
     display: none; 
 }
@@ -165,6 +180,9 @@
     flex-direction: column;
     height: 20%;
 
+}
+#zoom_projeto_Linguagem5 .desenvolvedores{
+    height: 25%;
 }
 .desenvolvedores table{
     width: 100%;
