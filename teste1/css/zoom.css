@@ -36,6 +36,9 @@
 #zoom_projeto_Redes2{
     display: none;
 }
+#zoom_projeto_Banco1{
+    display: none;
+}
 .contem_projeto_zoom{
     position: relative;
     left: 10%;

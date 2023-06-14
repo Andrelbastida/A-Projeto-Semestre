@@ -158,8 +158,43 @@ function fechaR2(){
     zoom_projeto_Redes2.style.display="none"
 }
 /* _______________________________________________________ */
+/* ZOOM Projeto Banco 1 */
+var caixa_Banco1 = document.getElementById("projeto_Banco1")
+var tela_Banco1 = document.getElementById("zoom_projeto_Banco1")
+
+caixa_Banco1.addEventListener('click', zoomB1)
+
+function zoomB1(){
+    zoom_projeto_Banco1.style.display="block"
+}
+var btn_fechar_B1 = document.getElementById("btn_fechar_Banco1")
+btn_fechar_B1.addEventListener('click',fechaB1)
+function fechaB1(){
+    zoom_projeto_Banco1.style.display="none"
+}
+/* _______________________________________________________ */
 
 /* ZOOM Projeto _ */
 
 
+/* _______________________________________________________ */
+
+
+
+/*
+____________________________________________________________/*
+/* ZOOM Projeto Ciencia 1 */
+var caixa_Ciencia1 = document.getElementById("projeto_Ciencia1")
+var tela_Ciencia1 = document.getElementById("zoom_projeto_Ciencia1")
+
+caixa_Ciencia1.addEventListener('click', zoomC1)
+
+function zoomC1(){
+    zoom_projeto_Ciencia1.style.display="block"
+}
+var btn_fechar_C1 = document.getElementById("btn_fechar_Ciencia1")
+btn_fechar_C1.addEventListener('click',fechaC1)
+function fechaC1(){
+    zoom_projeto_Ciencia1.style.display="none"
+}
 /* _______________________________________________________ */
