@@ -143,6 +143,21 @@ function fechaR1(){
     zoom_projeto_Redes1.style.display="none"
 }
 /* _______________________________________________________ */
+/* ZOOM Projeto Redes 2 */
+var caixa_Redes2 = document.getElementById("projeto_Redes2")
+var tela_Redes2 = document.getElementById("zoom_projeto_Redes2")
+
+caixa_Redes2.addEventListener('click', zoomR2)
+
+function zoomR2(){
+    zoom_projeto_Redes2.style.display="block"
+}
+var btn_fechar_R2 = document.getElementById("btn_fechar_Redes2")
+btn_fechar_R2.addEventListener('click',fechaR2)
+function fechaR2(){
+    zoom_projeto_Redes2.style.display="none"
+}
+/* _______________________________________________________ */
 
 /* ZOOM Projeto _ */
 

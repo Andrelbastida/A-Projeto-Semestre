@@ -30,6 +30,12 @@
 #zoom_projeto_Automacao6{
     display: none;
 }
+#zoom_projeto_Redes1{
+    display: none;
+}
+#zoom_projeto_Redes2{
+    display: none;
+}
 .contem_projeto_zoom{
     position: relative;
     left: 10%;
