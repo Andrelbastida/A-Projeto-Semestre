@@ -98,6 +98,22 @@ function fechaL6(){
 }
 
 /* _______________________________________________________ */
+/* ZOOM Projeto _Linguagem 7 */
+var caixa_Linguagem7 = document.getElementById("projeto_Linguagem7")
+var tela_Linguagem7 = document.getElementById("zoom_projeto_Linguagem7")
+
+caixa_Linguagem7.addEventListener('click', zoomL7)
+
+function zoomL7(){
+    zoom_projeto_Linguagem7.style.display="block"
+}
+var btn_fechar_L7 = document.getElementById("btn_fechar_Linguagem7")
+btn_fechar_L7.addEventListener('click',fechaL7)
+function fechaL7(){
+    zoom_projeto_Linguagem7.style.display="none"
+}
+
+/* _______________________________________________________ */
 
 
 
@@ -193,6 +209,7 @@ btn_fechar_A6.addEventListener('click',fechaA6)
 function fechaA6(){
     zoom_projeto_Automacao6.style.display="none"
 }
+
 
 /* Projetos Redes _________________________
 ###############################################################*/

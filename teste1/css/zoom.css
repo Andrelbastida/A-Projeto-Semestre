@@ -27,6 +27,9 @@
 #zoom_projeto_Linguagem6{
     display: none;
 }
+#zoom_projeto_Linguagem7{
+    display: none;
+}
 #zoom_projeto_Automacao1{
     display: none; 
 }
@@ -194,6 +197,16 @@
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
 }
+#zoom_projeto_Linguagem7 .desenvolvedores{
+    height: 40%;
+}
+#zoom_projeto_Linguagem7 .desenvolvedores .foto_perfil{
+    height: 40px;
+}
+#zoom_projeto_Linguagem7 .coluna_projeto_zoom p{
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
 
 .desenvolvedores table{
     width: 100%;
@@ -202,6 +215,4 @@
     max-width:95% ;
     max-height: 95%;
 }
-.foto_tinkerkad{
 
-}
