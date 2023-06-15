@@ -61,3 +61,6 @@
     align-items: center;
     justify-content: center;
 }
+.secao_materia .lista_cardnalidade ul{
+    padding-left: 10px;
+}

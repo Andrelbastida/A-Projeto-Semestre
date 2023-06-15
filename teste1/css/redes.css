@@ -23,3 +23,9 @@
     flex-direction: column;
     justify-content: center;
 }
+.secao_materia ul li{
+    list-style: none;
+}
+.secao_materia li{
+    list-style: none;
+}

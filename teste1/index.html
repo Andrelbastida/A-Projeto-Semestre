@@ -1695,6 +1695,7 @@
                         <li><h4>Topologia Lógica:</h4><p>Os dispositivos de comunicação são modelados como nós e as conexões entre os dispositivos são modeladas como links ou linhas entre os nós. </p></li>
                         <li><h4>Topologia Física:</h4><p>Descreve a verdadeira aparência ou layout da rede. As distâncias entre nós, interconexões físicas, taxas de transmissão ou tipos de sinais podem diferir entre duas redes, mas suas topologias lógicas podem ser idênticas. </p></li>
                     </ul><br>
+                    <p>
                     Ao mapear graficamente esses links, temos como resultado algumas formas geométricas que podem ser usadas para descrever diferentes topologias
                 </p>
         
@@ -1715,20 +1716,15 @@
                     É o tipo de configuração mais comum. A rede é organizada de forma que os nós sejam conectados a um hub central, que atua como um servidor. O hub gerencia a transmissão de dados pela rede. Ou seja, qualquer dado enviado pela rede viaja pelo hub central antes de terminar em seu destino.
                     <ul>
                         <li><h4>Prós:</h4>
-
-                            Gerenciamento conveniente de um local central
+                            <p>
+                            - Gerenciamento conveniente de um local central.<br>
+                            - Se um nó falhar, a rede ainda funciona. Os dispositivos podem ser adicionados ou removidos sem interromper a rede.
                             
-                            Se um nó falhar, a rede ainda funciona
-                            
-                            Os dispositivos podem ser adicionados ou removidos sem interromper a rede
-                            
-                            Mais fácil de identificar e isolar problemas de desempenho</li>
+                            - Tornando mais fácil de identificar e isolar problemas de desempenho</p></li>
                             <li><h4>Contras:</h4>
-                                Se o hub central falhar, toda a sua rede cairá
-
-                                O desempenho e a largura de banda são limitados pelo nó central
-                                
-                                Pode ser caro para operar</li>
+                                <p>- Se o hub central falhar, toda a sua rede cairá.
+                                - O desempenho e a largura de banda são limitados pelo nó central.
+                                - Pode ser caro para operar</p></li>
                     </ul>
                 </p>
         
@@ -1746,21 +1742,18 @@
             <div class="texto_redes"> 
                 <h3>Topologia Barramento:</h3>
                 <p>
-                    Também chamada de topologia de backbone, bus ou linha, orienta os dispositivos ao longo de um único cabo que vai de uma extremidade da rede à outra. Os dados fluirão ao longo do cabo conforme ele se desloca até seu destino.</p>
+                    - Também chamada de topologia de backbone, bus ou linha, orienta os dispositivos ao longo de um único cabo que vai de uma extremidade da rede à outra. Os dados fluirão ao longo do cabo conforme ele se desloca até seu destino.</p>
                 <ul>
                     <li><h4>Pós:</h4>
-                        Econômico para redes menores
+                        <p>Econômico para redes menores
 
-                        Layout simples; todos os dispositivos conectados por meio de um cabo
-
-                        Mais nós podem ser adicionados ao alongar a linha
+                        -Layout simples; todos os dispositivos conectados por meio de um cabo<br>
+                        -Mais nós podem ser adicionados ao alongar a linha.</p>
                     </li>
                     <li><h4>Contras:</h4>
-                    <p>A rede é vulnerável a falhas de cabo
-
-                        Cada nó adicionado diminui as velocidades de transmissão
-                        
-                        Os dados só podem ser enviados em uma direção de cada vez</p></li>
+                    <p>- A rede é vulnerável a falhas de cabo.
+                        - Cada nó adicionado diminui as velocidades de transmissão.
+                        - Os dados só podem ser enviados em uma direção de cada vez</p></li>
                 </ul>
                 </p>
         
@@ -1780,16 +1773,17 @@
                     Os nós são configurados em um padrão circular. Os dados viajam por cada dispositivo à medida que percorrem o anel. Em uma grande rede, repetidores podem ser necessários para evitar a perda de pacotes durante a transmissão. As topologias em anel podem ser configuradas como anel único (half-duplex) ou anel duplo (full-duplex) para permitir que o tráfego flua em ambas as direções simultaneamente..
                     <ul>
                         <li><h4>Prós:</h4>
-
-                            Custo-beneficio
-                            Barato para instalar
-                            Fácil de identificar problemas de desempenhoproblemas de desempenho</li>
+                            <p>
+                            - Custo-beneficio <br>
+                            - Barato para instalar<br>
+                            - Fácil de identificar problemas de desempenhoproblemas de desempenho</p></li>
                             <li><h4>Contras:</h4>
-                                Se um nó cair, ele pode derrubar vários nós com ele
+                                <p>
+                                - Se um nó cair, ele pode derrubar vários nós com ele<br>
 
-                                Todos os dispositivos compartilham largura de banda, o que pode limitar a taxa de transferência
+                                - Todos os dispositivos compartilham largura de banda, o que pode limitar a taxa de transferência<br>
 
-                                Adicionar ou remover nós significa tempo de inatividade para toda a rede</li>
+                                - Adicionar ou remover nós significa tempo de inatividade para toda a rede</p><br></li>
                     </ul>
                 </p>
         
@@ -1809,16 +1803,13 @@
                     Um nó central conecta hubs secundários. Esses hubs têm uma relação pai-filho com os dispositivos. O eixo central é como o tronco da árvore. Onde as ramificações se conectam estão os hubs secundários ou nós de controle e, em seguida, os dispositivos conectados são anexados aos branches. 
                     <ul>
                         <li><h4>Prós:</h4>
-
-                            Extremamente flexível e escalável
-
-                            Facilidade na identificação de erros, uma vez que cada branch da rede pode ser diagnosticado individualmente.</li>
+                            <p>
+                            - Extremamente flexível e escalável<br>
+                            - Facilidade na identificação de erros, uma vez que cada branch da rede pode ser diagnosticado individualmente.</p></li>
                             <li><h4>Contras:</h4>
-                                Se um hub central falhar, os nós serão desconectados (embora as ramificações possam continuar a funcionar de forma independente)
-
-                                A estrutura pode ser difícil de gerenciar de forma eficaz
-
-                                Usa muito mais cabeamento do que outros métodos</li>
+                                </p> - Se um hub central falhar, os nós serão desconectados (embora as ramificações possam continuar a funcionar de forma independente).<br>
+                                - A estrutura pode ser difícil de gerenciar de forma eficaz<br>
+                                - Usa muito mais cabeamento do que outros métodos</p></li>
                     </ul>
                 </p>
         
@@ -1839,15 +1830,15 @@
                     <ul>
                         <li><h4>Prós:</h4>
 
-                            Confiável e estável
+                            - Confiável e estável <br>
 
                             Nenhuma falha de nó único faz com que a rede fique offline</li>
                             <li><h4>Contras:</h4>
-                                Grau complexo de interconectividade entre nós
+                                - Grau complexo de interconectividade entre nós. <br>
 
-                                Trabalho intensivo para instalar
+                                - Trabalho intensivo para instalar. <br>
 
-                                Usa muito cabeamento para conectar todos os dispositivos.</li>
+                                - Usa muito cabeamento para conectar todos os dispositivos.</li>
                     </ul>
                 </p>
         
@@ -1887,9 +1878,9 @@
                     <li>Cabo Coaxial</li>
                     <li>Fibra òtica</li>
                     <li>Redes Sem Fio</li>
-                    <li>Satélites</li>
+                    <li>Satélites</li></p>
             </ul>
-                A comunicação é realizada através de pulsos elétricos, interpretados com código binário.  
+                <p>A comunicação é realizada através de pulsos elétricos, interpretados com código binário.  
             </p><br>
             <h3>Enlace</h3>
             <p>
@@ -1944,7 +1935,7 @@
                     <p>O protocolo TCP, consiste na entrega total do conteúdo empacotado", ou seja, por mais que haja interferencia na rede, todo o conteúdo que será enviado ou recebido, chegará 100%, sem faltar nenhuma informação. Alguns exemplos são Aplicativos de musica, vídeos, e principalmente servisos de streaming online, onde os usoários assistem filmes e séries, sem que haja cortes ou saltos inesperados em seus conteúdos.</p>
                     <li><h3>UDP:</h3></li>
                     <p>O protocolo UDP, é mais rápido, consiste no envio imediato da informação, porém, diferente do TCP, o UDP não garante 100% do envio total do conteúdo, como por exemplo, jogos e transmissões ao vivo, pois havendo uma interferência no envio dos dados, o conteúdo terá saltos, onde cortará algumas partes, deixando o usoário sem saber oque ocorreu na transmissão durante essa interferência. </p>
-                    <li>Basicamente, o TCP realiza uma conexão entre o dispositivo inicial e o final de forma "amigável", uma máquina pergunta a outra se pode enviar o conteúdo, e a outra responderá, caso positivo, ela envia os dados, caso contrário, ela irá perguntar novamente, até que o caminho entre elas esteja estabilizado. E a UDP, envia o pacote de dados sem garantir que o caminho esteja estável, podendo enviar o conteúdo em partes cortadas e incompletas. </li>
+                    <li><p>Basicamente, o TCP realiza uma conexão entre o dispositivo inicial e o final de forma "amigável", uma máquina pergunta a outra se pode enviar o conteúdo, e a outra responderá, caso positivo, ela envia os dados, caso contrário, ela irá perguntar novamente, até que o caminho entre elas esteja estabilizado. E a UDP, envia o pacote de dados sem garantir que o caminho esteja estável, podendo enviar o conteúdo em partes cortadas e incompletas. </p></li>
                 </ul>
                 
                  
@@ -2189,7 +2180,7 @@
                     <p>A cardinalidade é um número que expressa o comportamento (número de ocorrências) de determinada entidade associada a uma ocorrência da entidade em questão através do relacionamento.Existem dois tipos de cardinalidade: mínima e máxima. A cardinalidade máxima, expressa o número máximo de ocorrências de determinada entidade, associada a uma ocorrência da entidade em questão, através do relacionamento. A cardinalidade mínima, expressa o número mínimo de ocorrências de determinada entidade associada a uma ocorrência da entidade em questão através do relacionamento. Essa cardinalidade pode ocorrer de:
                     </p>
                     <p>Abaixo está um exemplo de cardinalidade descrita em um fluxograma(<b>MER</b>):</p>
-                    <div class="">
+                    <div class="lista_cardnalidade">
                         <ul>
                             <li><b>0</b> para <b>0</b></li>
                             <li><b>1</b> para <b>1</b></li>
