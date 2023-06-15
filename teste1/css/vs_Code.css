@@ -240,3 +240,7 @@ mark{
     transform: translateX(50px) ;
     transition: 2s;
 }
+.secao_materia p{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}

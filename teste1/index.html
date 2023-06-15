@@ -89,7 +89,7 @@
         <div class="selecao_Materias"  >
 
 
-            <a class="materia" href="#LinguagemDeProgramacao"> <!--LINK-->
+            <a class="materia" href="#linguagemDeProgramacao"> <!--LINK-->
                 <div class="img_tema LP"></div>
                    
                 <div class="conteudo__materia">
@@ -107,7 +107,7 @@
                 </div>
             </a>
 
-            <a class="materia" href="#RedesDeComputadores">
+            <a class="materia" href="#redesDeComputadores">
                 <div class="img_tema RC"></div>
                     
                 
@@ -118,7 +118,7 @@
                 </div>
             </a>
 
-            <a class="materia" href="#BancoDeDados">
+            <a class="materia" href="#bancoDeDados">
                 <div class="img_tema BD"></div>
                     
                 
@@ -1602,11 +1602,11 @@
 
 
     <!-- REDES -->
-    <section id="redesDeComputadores"  class="secao_materia">
+    <section   class="secao_materia">
         <p class="narrativa">Vamos para nossa terceira matéria</p>
         
         <div>
-            <h2>Redes de Computadores</h2> 
+            <h2 id="redesDeComputadores">Redes de Computadores</h2> 
             <p>Rede de computadores são conjuntos de dispositivos computacionais conectados a um mesmo sistema de comunicação para a transmissão de dados, esses dispositivos enviam, recebem e trocam tráfego de dados, imagens, audios, vídeos, tudo graças ao hardware e software que compõe o ambiente. Alguns dos exemplos mais comuns no nosso dia a dia são as redes locais (LAN), as redes pessoais de Bluetooth (PAN) e as redes de longas distâncias (WAN). Vou listar abaixo mais alguns tipos de rede. </p>
         </div>
        
@@ -2156,14 +2156,10 @@
     
         <!--FIM REDES-->
         <!--Banco de Dados-->
-        <section id="bancoDeDados" class="secao_materia">
+        <section  class="secao_materia">
             <div>
-                <h2>Banco de Dados</h2> 
-                <p>O banco de dados é a organização e armazenagem de informações sobre um domínio específico. De forma mais simples, é o agrupamento de dados que tratam do mesmo assunto, e que precisam ser armazenados para segurança ou conferência futura. 
-                    <br>
-                Podem ser utilizados em diversos contextos, desde o controle de informações do RH, até o armazenamento e gestão da informação de sites e blogs.
-                <br>
-                Existem várias opções de bancos de dados disponíveis no mercado, dentre elas estão os banco de dados <b>relacionais</b>, e <b>não relacionais</b>.
+                <h2 id="bancoDeDados">Banco de Dados</h2> 
+                <p>O banco de dados é a estuturação, organização e armazenagem de informações sobre um domínio específico. De forma mais simples, é o agrupamento de dados que tratam do mesmo assunto, e que precisam ser armazenados para segurança ou conferência futura. Podem ser utilizados em diversos contextos, desde o controle de informações do RH, até o armazenamento e gestão de informações de sites e blogs. Existem várias opções de bancos de dados disponíveis no mercado, dentre elas estão os banco de dados <b>relacionais</b>, e <b>não relacionais</b>, e estuturados em duas etapas <b>DER</b> e <b>MER</b>
                 
                     <li><h3>Banco de Dados Relacionais:</h3>
                         <p>
@@ -2171,35 +2167,60 @@
                             <br>
                             Abaixo, vou deixar alguns exemplos dessa estrutura de relacionamento:
                         </p>
-                        <img class="img_BD" src="../img/Banco de Dados/Tabeladerelacionamento22.png" alt="">
-                        <img class="img_BD" src="../img/Banco de Dados/Tabelasderelacionamento.png" alt="">
-                        <img class="img_BD" src="../img/Banco de Dados/Tabelasderelacionamento3.png" alt="">
-
+                        <div class="tabelas_BD">
+                            <img class="img_BD" src="../img/Banco de Dados/Tabelasderelacionamento.png" alt="">
+                            <img class="img_BD" src="../img/Banco de Dados/Tabelasderelacionamento3.png" alt="">
+                        </div>
+                        <h5 class="obs_h5">Estes exemplos acima, não possuem as cardinalidades.</h5>
                     </li>
                     <h4>Cardinalidade:</h4>
                     <p>A cardinalidade é um número que expressa o comportamento (número de ocorrências) de determinada entidade associada a uma ocorrência da entidade em questão através do relacionamento.Existem dois tipos de cardinalidade: mínima e máxima. A cardinalidade máxima, expressa o número máximo de ocorrências de determinada entidade, associada a uma ocorrência da entidade em questão, através do relacionamento. A cardinalidade mínima, expressa o número mínimo de ocorrências de determinada entidade associada a uma ocorrência da entidade em questão através do relacionamento. Essa cardinalidade pode ocorrer de:
                     </p>
-                    <p>Abaixo está um exemplo de cardinalidade descrita em um fluxograma(<b>MER</b>):</p>
+                    <p>Abaixo está um exemplo de cardinalidade descrita em um fluxograma(<b>DER</b>):</p>
                     <div class="lista_cardnalidade">
-                        <ul>
-                            <li><b>0</b> para <b>0</b></li>
-                            <li><b>1</b> para <b>1</b></li>
-                            <li><b>n</b> para <b>n</b></li>
-                            <li><b>0</b> para <b>n</b></li>
-                            <li><b>0</b> para <b>1</b></li>
-                            <li><b>1</b> para <b>n</b></li>
-                        </ul>
-                        <img src="../img/Banco de Dados/cardinalidade.png" alt="">
+                        <table style="width: 40%;">
+                            <tr>
+                                <td><b>0</b>,<b>0</b></td>
+                                <td>Nenhum para Nenhum</td>
+                            </tr>
+                            <tr>
+                                <td><b>1</b>,<b>1</b></td>
+                                <td>Um para Um</td>
+                            </tr>
+                            <tr>
+                                <td><b>n</b>,<b>n</b></td>
+                                <td>Muitos para Muitos</td>
+                            </tr>
+                            <tr>
+                                <td><b>0</b>,<b>n</b></td>
+                                <td>Nenhum para Muitos</li></td>
+                            </tr>
+                            <tr>
+                                <td><b>0</b>,<b>1</b></td>
+                                <td>Nenhum para Um</td>
+                            </tr>
+                            <tr>
+                                <td><b>1</b>,<b>n</b></td>
+                                <td>Um para Muitos</td>
+                            </tr>
+                        </table>
+                        
+                        <img class="img_BD" src="../img/Banco de Dados/drawIO_sF.png" alt="">
                     </div>
                         
                     <li><h3>Banco de Dados Não Relacionais:</h3>
                         <p>
                             São responsáveis por atender demandas que os bancos relacionais não conseguem suprir, no caso, não poderão ser tabulados em colunas e linhas de tabela, por exemplo, aqueles dados mistos, onde se misturam tabelas, imagens e mapas.
-
-                            Suas soluções são baseadas em armazenamento na nuvem. A linguagem utilizada nesse formato é NoSQL, Not Only SQL. 
                         </p>
                     </li>
-
+                    <h3>MER</h3>
+                    <p>O MER , é um modelo conceitual utilizado para descrever objetos envolvidos dentro de um sistema, permitindo representar de forma mais abstrata, nele serão descritas os atributos, entidade e relacionamento. </p>
+                    <h3>DER</h3>
+                    <p>
+                    O DER é o diagrama de relacionamento, a parte visual, utilizada para representar todo o conteúdo do MER, e descrever suas formas de relacionamento, contendo as cardinalidades, os atributos, etc. O DER utiliza as formas geométricas para representar os componentes de seu sistema, veja abaixo alguns exemplos:</p><br>
+                    <div class="lista_cardnalidade">
+                        <img class="img_BD" src="../img/Banco de Dados/DER.png" alt="">
+                    </div>
             </div>
             
             <div class="foto_texto">           
@@ -2208,7 +2229,7 @@
                     
                 </div>
                 <div class="pagina_img_linguagemProgramacao">
-                    <img class="img_Automacao" src="../img/Unimate.png" alt="">
+                    
                 </div>
             </div>
     
@@ -2288,11 +2309,11 @@
         </section>
         <!--FIM Banco de Dados-->
         <!--Ciencia de Dados-->
-        <section id="CienciaDeDados" class="secao_materia">
+        <section  class="secao_materia">
             <p class="narrativa">Vamos para nossa quinta matéria</p>
             
             <div>
-                <h2>Ciencia de Dados</h2> 
+                <h2 id="CienciaDeDados">Ciencia de Dados</h2> 
                 
             </div>
             <div class="selecao_Projetos">
