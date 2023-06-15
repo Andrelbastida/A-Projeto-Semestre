@@ -1,6 +1,7 @@
-#linguagemDeProgramacao{
+
+.secao_materia{
     padding: 8%;
-    text-align: justify;
+    text-align: justify; 
 }
 #linguagemDeProgramacao h2{
     text-align: center;
