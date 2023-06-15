@@ -82,6 +82,22 @@ function fechaL5(){
 }
 
 /* _______________________________________________________ */
+/* ZOOM Projeto _Linguagem 6 */
+var caixa_Linguagem6 = document.getElementById("projeto_Linguagem6")
+var tela_Linguagem6 = document.getElementById("zoom_projeto_Linguagem6")
+
+caixa_Linguagem6.addEventListener('click', zoomL6)
+
+function zoomL6(){
+    zoom_projeto_Linguagem6.style.display="block"
+}
+var btn_fechar_L6 = document.getElementById("btn_fechar_Linguagem6")
+btn_fechar_L6.addEventListener('click',fechaL6)
+function fechaL6(){
+    zoom_projeto_Linguagem6.style.display="none"
+}
+
+/* _______________________________________________________ */
 
 
 

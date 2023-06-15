@@ -184,6 +184,17 @@
 #zoom_projeto_Linguagem5 .desenvolvedores{
     height: 25%;
 }
+#zoom_projeto_Linguagem6 .desenvolvedores{
+    height: 35%;
+}
+#zoom_projeto_Linguagem6 .desenvolvedores .foto_perfil{
+    height: 40px;
+}
+#zoom_projeto_Linguagem6 .coluna_projeto_zoom p{
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
 .desenvolvedores table{
     width: 100%;
 }
