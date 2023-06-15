@@ -22,6 +22,9 @@
 .texto_vs{
     padding-left: 1rem;
 }
+.texto_redes{
+    padding-left: 1rem;
+}
 .texto_vs a{
     cursor: pointer;
     color: black;
@@ -29,6 +32,17 @@
 }
 .texto_vs ul{
     font-size: 0.8rem;
+}
+.texto_redes a{
+    cursor: pointer;
+    color: black;
+    
+}
+.texto_redes ul{
+    font-size: 0.8rem;
+}
+.texto_redes p{
+    padding-left: 1rem;
 }
 ul .html_{
     color: #e6580e;
