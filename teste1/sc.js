@@ -115,6 +115,23 @@ function fechaL7(){
 
 /* _______________________________________________________ */
 
+/* ZOOM Projeto _Linguagem 8 */
+var caixa_Linguagem8 = document.getElementById("projeto_Linguagem8")
+var tela_Linguagem8 = document.getElementById("zoom_projeto_Linguagem8")
+
+caixa_Linguagem8.addEventListener('click', zoomL8)
+
+function zoomL8(){
+    zoom_projeto_Linguagem8.style.display="block"
+}
+var btn_fechar_L8 = document.getElementById("btn_fechar_Linguagem8")
+btn_fechar_L8.addEventListener('click',fechaL8)
+function fechaL8(){
+    zoom_projeto_Linguagem8.style.display="none"
+}
+
+/* _______________________________________________________ */
+
 
 
 /* _______________________________________________________ */
