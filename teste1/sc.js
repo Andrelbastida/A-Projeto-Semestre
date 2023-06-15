@@ -260,19 +260,80 @@ function fechaR2(){
     zoom_projeto_Redes2.style.display="none"
 }
 /* _______________________________________________________ */
-/* ZOOM Projeto Banco 1 */
-var caixa_Banco1 = document.getElementById("projeto_Banco1")
-var tela_Banco1 = document.getElementById("zoom_projeto_Banco1")
+/* ZOOM Projeto BancoDeDados 1 */
+var caixa_BancoDeDados1 = document.getElementById("projeto_BancoDeDados1")
+var tela_BancoDeDados1 = document.getElementById("zoom_projeto_BancoDeDados1")
 
-caixa_Banco1.addEventListener('click', zoomB1)
+caixa_BancoDeDados1.addEventListener('click', zoomB1)
 
 function zoomB1(){
-    zoom_projeto_Banco1.style.display="block"
+    zoom_projeto_BancoDeDados1.style.display="block"
 }
-var btn_fechar_B1 = document.getElementById("btn_fechar_Banco1")
+var btn_fechar_B1 = document.getElementById("btn_fechar_BancoDeDados1")
 btn_fechar_B1.addEventListener('click',fechaB1)
 function fechaB1(){
-    zoom_projeto_Banco1.style.display="none"
+    zoom_projeto_BancoDeDados1.style.display="none"
+}
+/* _______________________________________________________ */
+/* ZOOM Projeto BancoDeDados 2 */
+var caixa_BancoDeDados2 = document.getElementById("projeto_BancoDeDados2")
+var tela_BancoDeDados2 = document.getElementById("zoom_projeto_BancoDeDados2")
+
+caixa_BancoDeDados2.addEventListener('click', zoomB2)
+
+function zoomB2(){
+    zoom_projeto_BancoDeDados2.style.display="block"
+}
+var btn_fechar_B2 = document.getElementById("btn_fechar_BancoDeDados2")
+btn_fechar_B2.addEventListener('click',fechaB2)
+function fechaB2(){
+    zoom_projeto_BancoDeDados2.style.display="none"
+}
+/* _______________________________________________________ */
+/* ZOOM Projeto BancoDeDados 3 */
+var caixa_BancoDeDados3 = document.getElementById("projeto_BancoDeDados3")
+var tela_BancoDeDados3 = document.getElementById("zoom_projeto_BancoDeDados3")
+
+caixa_BancoDeDados3.addEventListener('click', zoomB3)
+
+function zoomB3(){
+    zoom_projeto_BancoDeDados3.style.display="block"
+}
+var btn_fechar_B3 = document.getElementById("btn_fechar_BancoDeDados3")
+btn_fechar_B3.addEventListener('click',fechaB3)
+function fechaB3(){
+    zoom_projeto_BancoDeDados3.style.display="none"
+}
+/* _______________________________________________________ */
+/* ZOOM Projeto BancoDeDados 4 */
+var caixa_BancoDeDados4 = document.getElementById("projeto_BancoDeDados4")
+var tela_BancoDeDados4 = document.getElementById("zoom_projeto_BancoDeDados4")
+
+caixa_BancoDeDados4.addEventListener('click', zoomB4)
+
+function zoomB4(){
+    zoom_projeto_BancoDeDados4.style.display="block"
+}
+var btn_fechar_B4 = document.getElementById("btn_fechar_BancoDeDados4")
+btn_fechar_B4.addEventListener('click',fechaB4)
+function fechaB4(){
+    zoom_projeto_BancoDeDados4.style.display="none"
+}
+/* _______________________________________________________ */
+
+/* ZOOM Projeto BancoDeDados 5 */
+var caixa_BancoDeDados5 = document.getElementById("projeto_BancoDeDados5")
+var tela_BancoDeDados5 = document.getElementById("zoom_projeto_BancoDeDados5")
+
+caixa_BancoDeDados5.addEventListener('click', zoomB5)
+
+function zoomB5(){
+    zoom_projeto_BancoDeDados5.style.display="block"
+}
+var btn_fechar_B5 = document.getElementById("btn_fechar_BancoDeDados5")
+btn_fechar_B5.addEventListener('click',fechaB5)
+function fechaB5(){
+    zoom_projeto_BancoDeDados5.style.display="none"
 }
 /* _______________________________________________________ */
 

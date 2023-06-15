@@ -57,7 +57,19 @@
 #zoom_projeto_Redes2{
     display: none;
 }
-#zoom_projeto_Banco1{
+#zoom_projeto_BancoDeDados1{
+    display: none;
+}
+#zoom_projeto_BancoDeDados2{
+    display: none;
+}
+#zoom_projeto_BancoDeDados3{
+    display: none;
+}
+#zoom_projeto_BancoDeDados4{
+    display: none;
+}
+#zoom_projeto_BancoDeDados5{
     display: none;
 }
 .contem_projeto_zoom{
@@ -187,18 +199,41 @@
     height: 20%;
 
 }
+#zoom_projeto_Linguagem2 .desenvolvedores{
+    height: 20%;
+}
+
+#zoom_projeto_Linguagem2 .desenvolvedores .foto_perfil{
+    height: 40px;
+}
+#zoom_projeto_Linguagem2 .coluna_projeto_zoom p{
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+}
 #zoom_projeto_Linguagem5 .desenvolvedores{
-    height: 25%;
+    height: 30%;
+}
+
+#zoom_projeto_Linguagem5 .desenvolvedores .foto_perfil{
+    height: 40px;
+}
+#zoom_projeto_Linguagem5 .coluna_projeto_zoom p{
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
 }
 #zoom_projeto_Linguagem6 .desenvolvedores{
-    height: 35%;
+    height: 30%;
+}
+#zoom_projeto_Linguagem6 .desenvolvedores h4{
+    
+    padding-bottom: 0px;
 }
 #zoom_projeto_Linguagem6 .desenvolvedores .foto_perfil{
-    height: 40px;
+    height: 30px;
 }
 #zoom_projeto_Linguagem6 .coluna_projeto_zoom p{
     padding: 0.5rem 1rem;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 #zoom_projeto_Linguagem7 .desenvolvedores{
     height: 40%;
@@ -210,12 +245,72 @@
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
 }
+#zoom_projeto_BancoDeDados1 .desenvolvedores{
+    height: 50%;
+}
+#zoom_projeto_BancoDeDados1 .desenvolvedores .foto_perfil{
+    height: 40px;
+}
+#zoom_projeto_BancoDeDados1 .coluna_projeto_zoom p{
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+#zoom_projeto_BancoDeDados2 .desenvolvedores{
+    height: 50%;
+}
+#zoom_projeto_BancoDeDados2 .desenvolvedores .foto_perfil{
+    height: 40px;
+}
+#zoom_projeto_BancoDeDados2 .coluna_projeto_zoom p{
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+#zoom_projeto_BancoDeDados3 .desenvolvedores{
+    height: 50%;
+}
+#zoom_projeto_BancoDeDados3 .desenvolvedores .foto_perfil{
+    height: 40px;
+}
+#zoom_projeto_BancoDeDados3 .coluna_projeto_zoom p{
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+#zoom_projeto_BancoDeDados4 .desenvolvedores{
+    height: 50%;
+}
+#zoom_projeto_BancoDeDados4 .desenvolvedores .foto_perfil{
+    height: 40px;
+}
+#zoom_projeto_BancoDeDados4 .coluna_projeto_zoom p{
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+#zoom_projeto_BancoDeDados5 .desenvolvedores{
+    height: 50%;
+}
+#zoom_projeto_BancoDeDados5 .desenvolvedores .foto_perfil{
+    height: 40px;
+}
+#zoom_projeto_BancoDeDados5 .coluna_projeto_zoom p{
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
 
 .desenvolvedores table{
     width: 100%;
 }
-.video_{
-    max-width:95% ;
-    max-height: 95%;
+
+
+.p_des_BD {
+    font-size: 0.65rem;
+    text-align: left;
+    padding: 5px;
+    padding-left: 2rem;
+    margin: none;
+    
 }
+
+
 
