@@ -27,5 +27,12 @@
 #linguagemDeProgramacao table tbody tr{
     padding: 0 20px;
 }
-
-
+.cienciaDe_Dados p{
+    padding-left: 1rem;
+}
+.cienciaDe_Dados h4{
+    padding-bottom: 1rem;
+}
+.cienciaDe_Dados h5{
+    padding-left: 0.5rem;
+}

@@ -131,6 +131,22 @@ function fechaL8(){
 }
 
 /* _______________________________________________________ */
+/* ZOOM Projeto _Linguagem 9 */
+var caixa_Linguagem9 = document.getElementById("projeto_Linguagem9")
+var tela_Linguagem9 = document.getElementById("zoom_projeto_Linguagem9")
+
+caixa_Linguagem9.addEventListener('click', zoomL9)
+
+function zoomL9(){
+    zoom_projeto_Linguagem9.style.display="block"
+}
+var btn_fechar_L9 = document.getElementById("btn_fechar_Linguagem9")
+btn_fechar_L9.addEventListener('click',fechaL9)
+function fechaL9(){
+    zoom_projeto_Linguagem9.style.display="none"
+}
+
+/* _______________________________________________________ */
 
 
 

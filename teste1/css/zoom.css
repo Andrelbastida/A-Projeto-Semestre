@@ -33,6 +33,9 @@
 #zoom_projeto_Linguagem8{
     display: none;
 }
+#zoom_projeto_Linguagem9{
+    display: none;
+}
 #zoom_projeto_Automacao1{
     display: none; 
 }
@@ -208,6 +211,32 @@
 }
 #zoom_projeto_Linguagem2 .coluna_projeto_zoom p{
     padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+}
+#zoom_projeto_Linguagem3 .desenvolvedores{
+    height: 20%;
+}
+#zoom_projeto_Linguagem3 .desenvolvedores h4{
+    height: 20%;
+}
+
+#zoom_projeto_Linguagem3 .desenvolvedores .foto_perfil{
+    height: 40px;
+}
+#zoom_projeto_Linguagem3 .coluna_projeto_zoom p{
+    padding: 0.3rem 0.5rem;
+    
+    font-size: 0.8rem;
+}
+#zoom_projeto_Linguagem4 .desenvolvedores{
+    height: 20%;
+}
+
+#zoom_projeto_Linguagem4 .desenvolvedores .foto_perfil{
+    height: 40px;
+}
+#zoom_projeto_Linguagem4 .coluna_projeto_zoom p{
+    padding: 0.5rem 1rem;
     font-size: 0.8rem;
 }
 #zoom_projeto_Linguagem5 .desenvolvedores{
@@ -235,15 +264,37 @@
     padding: 0.5rem 1rem;
     font-size: 0.7rem;
 }
-#zoom_projeto_Linguagem7 .desenvolvedores{
+
+#zoom_projeto_Linguagem7 .desenvolvedores {
     height: 40%;
 }
+#zoom_projeto_Linguagem7 .desenvolvedores h4{
+    
+    padding-bottom: 0px;
+}
+#zoom_projeto_Linguagem7 .links_gitHub img{
+    height: 30px;
+}
+#zoom_projeto_Linguagem7 .links_gitHub{
+    height: 15%;
+}
 #zoom_projeto_Linguagem7 .desenvolvedores .foto_perfil{
-    height: 40px;
+    height: 30px;
 }
 #zoom_projeto_Linguagem7 .coluna_projeto_zoom p{
     padding: 0.5rem 1rem;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
+}
+#zoom_projeto_Linguagem8 .desenvolvedores{
+    height: 20%;
+}
+
+#zoom_projeto_Linguagem8 .desenvolvedores .foto_perfil{
+    height: 40px;
+}
+#zoom_projeto_Linguagem8 .coluna_projeto_zoom p{
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
 }
 #zoom_projeto_BancoDeDados1 .desenvolvedores{
     height: 50%;
@@ -287,7 +338,7 @@
 }
 
 #zoom_projeto_BancoDeDados5 .desenvolvedores{
-    height: 50%;
+    height: 20%;
 }
 #zoom_projeto_BancoDeDados5 .desenvolvedores .foto_perfil{
     height: 40px;
